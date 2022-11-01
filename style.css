@@ -45,6 +45,7 @@ div button {
 
 footer {
     margin: auto;
+    position: fixed;
 }
 
 footer p {
