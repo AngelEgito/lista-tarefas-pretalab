@@ -1,5 +1,5 @@
-body{
-   background-image: url("floral2.jpg");
+body {
+    background-image: url("fundo2.jpg");
 }
 
 #tarefa{
@@ -10,32 +10,48 @@ body{
     padding: 10px;
     border: 2px;
     border: solid;
-    border-color: #ff9999;
+    border-color: #e6b3ff;
     border-radius: 5px;
 }
 
 div h1 {
-    color: #206020;
+    color: #9900cc/*#206020*/;
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px;
 }
 
+
+
 div button {
-    background-color: #8cd98c;
+    background-color: #e6b3ff;
     border-radius: 12px;
 }
+
+
 
 #lista-tarefas {
     background-color: white;
     width: 50%;
     border: solid;
-    border-color: #ff9999;
+    border-color: #e6b3ff;
     border: 2px 2px;
     padding: 10px;
     border-radius: 5px;
     height: auto;
     margin: 10px auto;
     
-    
-    
+}
+
+footer {
+    margin: auto;
+}
+
+footer p {
+    font-size: small;
+    color:  #f9e6ff/* #206020*/;
+}
+
+footer a {
+    color: #ff9999;
 }
